@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<title>PICTURESQUE</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<link rel="icon"
+    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQz9AwpJvWA_oqhjJcdRqzF5k9Y49XISTJqQ&usqp=CAU"
+    type="image/x-icon">
+
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple|fire">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <div class="bg-img01">
+        <div class="container01">
+            <h2 class="text-center fw-bold mb-3" style="font-size: 25px;">Register</h2>
+            <form action="/register" method="POST">
+                <fieldset>
+                    <div id="form_alerts"></div>
+
+                    <label><b style="font-size: 15px;">First Name:</b></label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.." required></br>
+                    
+                    <label><b> Nick name: </b> </label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required></br>
+
+                    <label><b style="font-size: 15px;">Last Name:</b></label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required></br>
+                    
+                    <b style="font-size: 15px;"><label>Email:</b></label>
+                    <input type="email" id="emailid" name="email" placeholder="email" required></br>
+
+                    <label><b style="font-size: 15px;">Gender: </b></label>
+                    <select id="gender" name="gender" required>
+                        <option value="none">select</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="other">Other</option>
+                    </select></br>
+
+                    <label><b style="font-size: 15px;">Phone number: </b></label>
+                    <input type="tel" id="phoneno" name="phoneno" placeholder="mobile" required></br></br>
+
+                    <h2 class="text-center fw-bold mb-3" style="font-size: 25px;">Profile Set up</h2>
+
+                    <label><b style="font-size: 15px;">User Name:</b></label>
+                    <input type="text" id="uname" name="username" placeholder="Your name.." required></br>
+
+                    <label><b style="font-size: 15px;">Password: </b></label>
+                    <input type="password" class="password" name="password" placeholder="password" required></br>
+
+                    <label><b style="font-size: 15px;">Confirm Password: </b></label>
+                    <input type="password" class="confirmpassword" name="confirmpassword" placeholder="password"
+                        required></br>
+
+                    <label><b style="font-size: 15px;">Bio:</b></label>
+                    <textarea id="Bio" name="bio" class="form-control" placeholder="Enter your Bio" rows="2"
+                        required></textarea></br>
+
+                    <div>
+                        <button class="btn btn-primary me-2" type="submit">Submit</button>
+                        <button class="btn btn-danger" type="reset">Reset</button>&nbsp; Already have an account <a href="login.html">Login
+                    </div>
+
+
+                </fieldset>
+            </form>
+        </div>
+
+
+
+        </fieldset>
+        </form>
+    </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</body>
+
+</html>

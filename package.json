@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "module": "^1.2.5",
+    "mysql": "^2.18.1",
+    "node-popup": "^0.1.14",
+    "nodemon": "^2.0.15"
+  }
+}
